@@ -1,0 +1,11 @@
+INSERT INTO USERS(ID, USERNAME, PASSWORD)
+  VALUES (1, 'admin', /*admin1234*/'{bcrypt}$2a$08$qvrzQZ7jJ7oy2p/msL4M0.l83Cd0jNsX6AJUitbgRXGzge4j035ha');
+
+INSERT INTO USERS(ID, USERNAME, PASSWORD)
+  VALUES (2, 'reader', /*reader1234*/'{bcrypt}$2a$08$dwYz8O.qtUXboGosJFsS4u19LHKW7aCQ0LXXuNlRfjjGKwj5NfKSe');
+
+INSERT INTO USERS(ID, USERNAME, PASSWORD)
+  VALUES (3, 'modifier', /*modifier1234*/'{bcrypt}$2a$08$kPjzxewXRGNRiIuL4FtQH.mhMn7ZAFBYKB3ROz.J24IX8vDAcThsG');
+
+INSERT INTO USERS(ID, USERNAME, PASSWORD)
+  VALUES (4, 'reader2', /*reader1234*/'{bcrypt}$2a$08$vVXqh6S8TqfHMs1SlNTu/.J25iUCrpGBpyGExA.9yI.IlDRadR6Ea');

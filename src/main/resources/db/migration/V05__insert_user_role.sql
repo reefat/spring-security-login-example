@@ -1,0 +1,4 @@
+
+INSERT INTO USER_ROLES(ID, NAME)
+  VALUES (1, 'GUEST'),(1, 'ADMIN'),(1, 'SUPER_ADMIN'),(1, 'USER'),(2, 'GUEST'),(3, 'GUEST'),
+  (3, 'ADMIN'),(4, 'ADMIN');
